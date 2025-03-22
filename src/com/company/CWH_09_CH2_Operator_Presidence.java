@@ -5,7 +5,7 @@ public class CWH_09_CH2_Operator_Presidence {
     public static void main(String[] args) {
         //Precedence means which operator is bigger will evaluate/run/execute first
         //Precedence Example * Precedence is greater than + Precedence so * will evaluate first than + will evaluate
-
+        //
         int a = 6*5 - 34/2;// here both precedence is same for * and /
         // so check associativity, It will work as left to right
         // * and / associativity is left to right
