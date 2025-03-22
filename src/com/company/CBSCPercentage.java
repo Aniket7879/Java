@@ -12,7 +12,7 @@ public class CBSCPercentage {
         String name = sc.nextLine();
         System.out.println("Enter English Subject Marks : ");
         float english = sc.nextFloat();
-        System.out.println(english);
+//        System.out.println(english);
         System.out.println("Enter Marathi Subject Marks : ");
         float marathi = sc.nextFloat();
         System.out.println("Enter Hindi Subject Marks : ");
@@ -22,7 +22,7 @@ public class CBSCPercentage {
         System.out.println("Enter Geometry Subject Marks : ");
         float geometry = sc.nextFloat();
 
-        double sum = ((english + marathi + hindi + algebra + geometry)/100)*100;
+        double sum = ((english + marathi + hindi + algebra + geometry)/500)*100;
 
         System.out.println(name + " got " + sum + " % out of " + totalMarks + "%");
 
