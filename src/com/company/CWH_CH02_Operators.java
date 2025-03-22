@@ -13,8 +13,9 @@ public class CWH_CH02_Operators {
         float b3 = 6 / a;
         float b4 = 6 % a; // known as modulo operator, For example 6 / 4 the remainder comes as 2
         //basically it gives us the remainder value when we divided the numbers
+        float b14 = 4.4f % 1.1f;
         int b5 = 6;
-        int b6 = b5 += 3;// " += " means add 3 to 6, simply saying add b3 to b5 value
+        int b6 = b5 += 3;// " += " means add 3 to 6, simply saying add 3 to b5 value
         int b7 = 6;
         int b8 = b7 -= 3;// " -= " means subtract 3 from 6, simply saying subtracting 3 from b7 value
         int b9 = b5 *= 3;// " *= " means multiplying 3 to 6, simply saying multiplying 3 from b8 value
@@ -28,11 +29,13 @@ public class CWH_CH02_Operators {
         System.out.println(b2);
         System.out.println(b3);
         System.out.println(b4);
+        System.out.println(b14);
         System.out.println(b6);
         System.out.println(b8);
         System.out.println(b9);
         System.out.println(b10);
         System.out.println(b11);
+
 
         //comparison operators
         System.out.println(6 == 6);

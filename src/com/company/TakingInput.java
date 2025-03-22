@@ -28,12 +28,13 @@ public static void main (String[] args) {
     System.out.println(b1); // if it is integer it will print true or else false
 
     System.out.println("Enter your Full Name Again : ");
-    String str1 = sc.nextLine(); //if you enter your full name "Aniket Kiran Gangurde" it will only print Aniket
+    String str1 = sc.nextLine();//if you enter your full name "Aniket Kiran Gangurde" it will print full name Aniket
+    //Kiran Gangurde
     System.out.println(str1);
 
     System.out.println("Enter your Full Name : ");
-    String str = sc.next();//if you enter your full name "Aniket Kiran Gangurde" it will print full name Aniket
-                            //Kiran Gangurde
+    String str = sc.next();//if you enter your full name "Aniket Kiran Gangurde" it will only print Aniket
+
     System.out.println(str);
 
 
